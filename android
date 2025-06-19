@@ -1,0 +1,56 @@
+res/
+  values/strings.xml               --> Español (default)
+  values-en/strings.xml           --> Inglés
+  values-fr/strings.xml           --> Francés
+  values-de/strings.xml           --> Alemán
+
+<resources>
+    <string name="app_name">Aplicación Multilenguaje</string>
+    <string name="welcome">Bienvenido</string>
+</resources>
+
+
+<resources>
+    <string name="app_name">Multilanguage App</string>
+    <string name="welcome">Welcome</string>
+</resources>
+
+
+<resources>
+    <string name="app_name">Application Multilingue</string>
+    <string name="welcome">Bienvenue</string>
+</resources>
+
+
+<resources>
+    <string name="app_name">Mehrsprachige App</string>
+    <string name="welcome">Willkommen</string>
+</resources>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+drawable-mdpi/
+drawable-hdpi/
+drawable-xhdpi/
+drawable-xxhdpi/
